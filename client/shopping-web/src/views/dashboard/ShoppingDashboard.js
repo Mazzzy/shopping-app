@@ -3,6 +3,7 @@ import '../shop-home';
 import '../../data/shop-categorydata.js';
 import '../../components/shop-tab';
 import '../shop-list';
+import '../shop-product-detail';
 export class ShoppingDashboard extends LitElement {
   static get styles() {
     return css`
@@ -194,7 +195,9 @@ export class ShoppingDashboard extends LitElement {
 
         ${ (this.page=='list')? 
           html `<shop-list location=${this.pageName}></shop-list>` :  html``} 
-          
+        
+        ${ (this.page=='detail')? 
+          html ` <shop-product-detail .item=${this.selectedItem} .category=${this.selectedCategory} .route=${this.route} @add-cart-item=${this.onAddCartItem}></shop-product-detail>` :  html``}
               
       </main>
 
