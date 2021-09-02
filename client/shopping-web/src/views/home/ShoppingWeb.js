@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit';
 
-const logo = new URL('../assets/open-wc-logo.svg', import.meta.url).href;
+const logo = new URL('../../../assets/open-wc-logo.svg', import.meta.url).href;
 
 export class ShoppingWeb extends LitElement {
   static get properties() {
