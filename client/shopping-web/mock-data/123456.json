@@ -2,7 +2,7 @@
   {
     "productId": 1009762,
     "price": {
-      "sellingPrice": 0,
+      "sellingPrice": 10,
       "advicePrice": 0,
       "points": 1000,
       "extraCostLabel": null,
@@ -21,7 +21,7 @@
   {
     "productId": 1005301,
     "price": {
-      "sellingPrice": 0,
+      "sellingPrice": 7,
       "advicePrice": 0,
       "points": 500,
       "extraCostLabel": null,
@@ -34,7 +34,7 @@
       "url": "https://ing.nl/punten/media/file/2516991.jpg"
     },
     "supplier": "Guus BV",
-    "availableStock": 0,
+    "availableStock": 5,
     "fulfillmentType": "VOUCHER"
   },
   {

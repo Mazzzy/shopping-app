@@ -209,6 +209,13 @@ export class ShopProductDetail extends LitElement {
    }
   
    addToCart() {
+      this.dispatchEvent(new CustomEvent('add-cart-item', {
+          bubbles: true, composed: true, detail: {
+            item: this.detail,
+            quantity: parseInt(this.shadowRoot.getElementById('quantitySelect').value, 10)
+          }
+        }
+      ));
       this.isSucess=true;
       
       if(this.route=="r" || this.route==undefined){

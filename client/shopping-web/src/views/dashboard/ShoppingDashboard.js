@@ -1,9 +1,11 @@
 import { LitElement, html, css } from 'lit';
 import '../shop-home';
 import '../../data/shop-categorydata.js';
+import '../../data/shop-cart-data.js';
 import '../../components/shop-tab';
 import '../shop-list';
 import '../shop-product-detail';
+import '../shop-cart';
 export class ShoppingDashboard extends LitElement {
   static get styles() {
     return css`
@@ -34,7 +36,7 @@ export class ShoppingDashboard extends LitElement {
         cursor: pointer;
       }
           
-      .cart-buttoon{
+      .cart-button{
         cursor: pointer;
         padding-right: 20px;
         display: block;
@@ -76,20 +78,20 @@ export class ShoppingDashboard extends LitElement {
       }
         
        .cart-badge {
-        position: absolute;
-        top: 7px;
-        right: 10px;
-        width: 20px;
-        height: 20px;
-        background-color:#172C50;
-        border-radius: 50%;
-        color: white;
-        font-size: 12px;
-        font-weight: 500;
-        pointer-events: none;
-        @apply --layout-vertical;
-        @apply --layout-center-center;
-      }  
+          position: absolute;
+          top: 7px;
+          right: 10px;
+          width: 20px;
+          height: 20px;
+          background-color:#172C50;
+          border-radius: 50%;
+          color: white;
+          font-size: 12px;
+          font-weight: 500;
+          pointer-events: none;
+          @apply --layout-vertical;
+          @apply --layout-center-center;
+        }  
 
      .app-toolbar{
         display: flex;
@@ -146,16 +148,42 @@ export class ShoppingDashboard extends LitElement {
     return {
       page : {type:String}, 
       tab : {type:Boolean},
+      cart : {type:String}, 
       categories: {type: Array},
       pageName: { type: String },
       selectedItem: { type: String },
       selectedCategory: { type: String },
+      numItems:{type: String},
       route:{type: String},
+      cartRoute:{type: String}  
     };
   }
 
   handleCategoriesChanged(e) {
     this.categories = e.detail.categories.value;
+  }
+
+  onAddCartItem(e) {
+    this.shadowRoot.getElementById("cart").addItem(e.detail);
+  }
+  
+  onSetCartItem(e) {
+    let detail = e.detail;
+    this.shadowRoot.getElementById("cart").setItem(detail); 
+  }
+ 
+  onClearCartItem() {
+    this.shadowRoot.getElementById("cart").clearCart();     
+  }
+ 
+  ItemsCount() {
+    if(localStorage.getItem('shop-cart-data')){
+      this.numItems=JSON.parse(localStorage.getItem('shop-cart-data')).length;
+    }
+    else{
+      this.numItems=0;
+    }
+    return this.numItems;
   }
 
   pageChanged(){
@@ -170,7 +198,10 @@ export class ShoppingDashboard extends LitElement {
       this.selectedCategory = this.location.pathname.split('/')[2]
       this.selectedItem = this.location.pathname.split('/')[3]
       this.route = this.location.pathname.split('/')[4]
-     
+    } else if(this.location.pathname.split('/')[1]=='cart'){
+      this.page="cart";
+      this.cartRoute = this.location.pathname.split('/')[2]
+      this.tab=true;
     }
   
   }
@@ -180,9 +211,11 @@ export class ShoppingDashboard extends LitElement {
     return html`
       <main>
         <shop-categorydata  @categories-changed="${this.handleCategoriesChanged}"></shop-categorydata>
+        <shop-cart-data id="cart"></shop-cart-data>
         <div class="app-toolbar">
           <div class="logo"><a href="/">ACME SHOPPING</a></div>  
-          <button class="cart-buttoon"> <a href="/cart" ><img src="assets/shopping-cart.png" alt="shopping-cart-icon" id> </a></button> 
+          <button class="cart-button"> <a href="/cart" ><img src="assets/shopping-cart.png" alt="shopping-cart-icon" id> </a></button> 
+          ${(this.numItems!=0) ? html`<div class="cart-badge">${this.ItemsCount()}</div>`:html``}
         </div>
       
         ${(this.categories !== undefined && !this.tab) ? 
@@ -198,6 +231,9 @@ export class ShoppingDashboard extends LitElement {
         
         ${ (this.page=='detail')? 
           html ` <shop-product-detail .item=${this.selectedItem} .category=${this.selectedCategory} .route=${this.route} @add-cart-item=${this.onAddCartItem}></shop-product-detail>` :  html``}
+
+        ${ (this.page=='cart')? 
+          html ` <shop-cart  .route=${this.cartRoute} @set-cart-item=${this.onSetCartItem} ></shop-cart>` :  html``} 
               
       </main>
 

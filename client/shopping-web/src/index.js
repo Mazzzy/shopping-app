@@ -9,5 +9,7 @@ router.setRoutes([
   {path: '/',     component: 'shopping-dashboard'},
   {path: '/list/(.*)', component: 'shopping-dashboard'},
   {path: '/list-item/(.*)', component: 'shopping-dashboard'},
+  {path: '/cart', component: 'shopping-dashboard'},
+  {path: '/cart/(.*)', component: 'shopping-dashboard'},
   {path: '(.*)', component: 'not-found'},
 ]);

@@ -15,11 +15,11 @@ const categoryList = [
 
 class ShopCategorydata extends LitElement {
 
-    static get properties() {   
-        return {
-            categoryName:{type: String},
-            categories: {type: Object},
-        }  
+  static get properties() {   
+    return {
+        categoryName:{type: String},
+        categories: {type: Object},
+    }  
   }  
 
  constructor() {
@@ -83,4 +83,4 @@ class ShopCategorydata extends LitElement {
   }
 }
 
-customElements.define('shop-categorydata',ShopCategorydata)
+customElements.define('shop-categorydata', ShopCategorydata)
