@@ -1,0 +1,382 @@
+[
+  {
+    "productId": 1009762,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 1000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "BergHOFF 40% Kortingsvoucher",
+    "media": {
+      "id": 42561939,
+      "url": "https://ing.nl/punten/media/file/42561938.jpg"
+    },
+    "supplier": "Touch Tickets B.V. ",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1009522,
+    "price": {
+      "sellingPrice": 7,
+      "advicePrice": 14,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Toegangskaart KreaDoe 2021",
+    "media": {
+      "id": 40851684,
+      "url": "https://ing.nl/punten/media/file/40851683.jpg"
+    },
+    "supplier": "Guus BV",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1009742,
+    "price": {
+      "sellingPrice": 34,
+      "advicePrice": 49,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Speelkleed Circuit van Zandvoort",
+    "media": {
+      "id": 42477750,
+      "url": "https://ing.nl/punten/media/file/42477749.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "DROP_SHIP"
+  },
+  {
+    "productId": 1003577,
+    "price": {
+      "sellingPrice": null,
+      "advicePrice": null,
+      "points": null,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Galaxy Z Flip3: vanaf  €944,10 exclusief bij ING",
+    "media": {
+      "id": 42408209,
+      "url": "https://ing.nl/punten/media/file/42408208.jpg"
+    },
+    "supplier": "Samsung",
+    "availableStock": 0,
+    "fulfillmentType": "PARTNER_PRODUCT"
+  },
+  {
+    "productId": 1009706,
+    "price": {
+      "sellingPrice": 122,
+      "advicePrice": 179,
+      "points": 1500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Smeg Variabele Waterkoker",
+    "media": {
+      "id": 42226190,
+      "url": "https://ing.nl/punten/media/file/42226189.jpg"
+    },
+    "supplier": "Sparco - Smeg",
+    "availableStock": 0,
+    "fulfillmentType": "DROP_SHIP"
+  },
+  {
+    "productId": 1009705,
+    "price": {
+      "sellingPrice": 136,
+      "advicePrice": 199,
+      "points": 1500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Smeg Broodrooster (Mat)",
+    "media": {
+      "id": 42194553,
+      "url": "https://ing.nl/punten/media/file/42194552.jpg"
+    },
+    "supplier": "Sparco - Smeg",
+    "availableStock": 0,
+    "fulfillmentType": "DROP_SHIP"
+  },
+  {
+    "productId": 1009703,
+    "price": {
+      "sellingPrice": 599,
+      "advicePrice": 899,
+      "points": 8000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "VirtuFit HTR 3.0i Ergometer Hometrainer",
+    "media": {
+      "id": 42190496,
+      "url": "https://ing.nl/punten/media/file/42190495.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "DROP_SHIP"
+  },
+  {
+    "productId": 1009702,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "V&amp;D webshop € 15,00 Kortingsvoucher",
+    "media": {
+      "id": 1058054,
+      "url": "https://ing.nl/punten/media/file/1058053.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1009682,
+    "price": {
+      "sellingPrice": 119,
+      "advicePrice": 149,
+      "points": 1500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Pivo Pod",
+    "media": {
+      "id": 41919012,
+      "url": "https://ing.nl/punten/media/file/41919011.jpg"
+    },
+    "supplier": "Sparco International",
+    "availableStock": 0,
+    "fulfillmentType": "DROP_SHIP"
+  },
+  {
+    "productId": 1009142,
+    "price": {
+      "sellingPrice": 85,
+      "advicePrice": 119,
+      "points": 1000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Smeg Mini Waterkoker",
+    "media": {
+      "id": 38119183,
+      "url": "https://ing.nl/punten/media/file/38119182.jpg"
+    },
+    "supplier": "Sparco - Smeg",
+    "availableStock": 0,
+    "fulfillmentType": "DROP_SHIP"
+  },
+  {
+    "productId": 1009146,
+    "price": {
+      "sellingPrice": 564,
+      "advicePrice": 679,
+      "points": 8000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Smeg Volautomatische Espressomachine met Stoomfunctie",
+    "media": {
+      "id": 38128071,
+      "url": "https://ing.nl/punten/media/file/38128070.jpg"
+    },
+    "supplier": "Sparco - Smeg",
+    "availableStock": 0,
+    "fulfillmentType": "DROP_SHIP"
+  },
+  {
+    "productId": 1009393,
+    "price": {
+      "sellingPrice": 56,
+      "advicePrice": 79.99,
+      "points": 1000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Philips True Wireless Oordopjes (TAT3216WT/00)",
+    "media": {
+      "id": 42002556,
+      "url": "https://ing.nl/punten/media/file/42002555.jpg"
+    },
+    "supplier": "TP Vision Europe B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "WAREHOUSE"
+  },
+  {
+    "productId": 1008888,
+    "price": {
+      "sellingPrice": 1299,
+      "advicePrice": 1699,
+      "points": 8000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Philips 75&#39;&#39; 4K UHD LED Android TV (75PUS8536/12)",
+    "media": {
+      "id": 41995391,
+      "url": "https://ing.nl/punten/media/file/41995386.jpg"
+    },
+    "supplier": "TP Vision Europe B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "WAREHOUSE"
+  },
+  {
+    "productId": 1009377,
+    "price": {
+      "sellingPrice": 106,
+      "advicePrice": 189,
+      "points": 1500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Castelijn &amp; Beerens Delta Laptoptas 13,3 inch (269460)",
+    "media": {
+      "id": 41988612,
+      "url": "https://ing.nl/punten/media/file/41988611.jpg"
+    },
+    "supplier": "Castelijn &amp; Beerens BV",
+    "availableStock": 0,
+    "fulfillmentType": "WAREHOUSE"
+  },
+  {
+    "productId": 1009667,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 1000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Overhemden.com €40,00 of €60,00 Kortingsbon",
+    "media": {
+      "id": 41739790,
+      "url": "https://ing.nl/punten/media/file/41739789.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1009665,
+    "price": {
+      "sellingPrice": 39,
+      "advicePrice": 60,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Plantje.nl Luchtzuiverende Plantenbox incl. Pot",
+    "media": {
+      "id": 41736969,
+      "url": "https://ing.nl/punten/media/file/41736968.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "DROP_SHIP"
+  },
+  {
+    "productId": 1009390,
+    "price": {
+      "sellingPrice": 79,
+      "advicePrice": 129.99,
+      "points": 1000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Philips Hoofdtelefoon met Draad (SHP9600/00)",
+    "media": {
+      "id": 39578230,
+      "url": "https://ing.nl/punten/media/file/39578229.jpg"
+    },
+    "supplier": "TP Vision Europe B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "WAREHOUSE"
+  },
+  {
+    "productId": 1009368,
+    "price": {
+      "sellingPrice": 49,
+      "advicePrice": 90,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Castelijn &amp; Beerens Notebook A5 (596050)",
+    "media": {
+      "id": 39197606,
+      "url": "https://ing.nl/punten/media/file/39197605.jpg"
+    },
+    "supplier": "Castelijn &amp; Beerens BV",
+    "availableStock": 0,
+    "fulfillmentType": "WAREHOUSE"
+  },
+  {
+    "productId": 1009364,
+    "price": {
+      "sellingPrice": 109,
+      "advicePrice": 195,
+      "points": 1500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Castelijn &amp; Beerens Sara Shopper Dama (209762)",
+    "media": {
+      "id": 39190588,
+      "url": "https://ing.nl/punten/media/file/39190587.jpg"
+    },
+    "supplier": "Castelijn &amp; Beerens BV",
+    "availableStock": 0,
+    "fulfillmentType": "WAREHOUSE"
+  },
+  {
+    "productId": 1009666,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Plantje.nl 20% Kortingsvoucher",
+    "media": {
+      "id": 41738709,
+      "url": "https://ing.nl/punten/media/file/41738708.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  }
+]

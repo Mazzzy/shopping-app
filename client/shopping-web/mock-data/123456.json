@@ -1,0 +1,382 @@
+[
+  {
+    "productId": 1009762,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 1000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "BergHOFF 40% Kortingsvoucher",
+    "media": {
+      "id": 42561939,
+      "url": "https://ing.nl/punten/media/file/42561938.jpg"
+    },
+    "supplier": "Touch Tickets B.V. ",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1005301,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "adidas 35% voordeelbon",
+    "media": {
+      "id": 2516992,
+      "url": "https://ing.nl/punten/media/file/2516991.jpg"
+    },
+    "supplier": "Guus BV",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1006359,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Rituals 15% Kortingsvoucher",
+    "media": {
+      "id": 17811848,
+      "url": "https://ing.nl/punten/media/file/17811847.jpg"
+    },
+    "supplier": "Rituals Cosmetics",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1002033,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 5,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Topbloemen: €5,00 korting",
+    "media": {
+      "id": 976825,
+      "url": "https://ing.nl/punten/media/file/976824.jpg"
+    },
+    "supplier": "Guus BV",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1000204,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 7.5,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Safaripark Beekse Bergen: tot € 8,00 korting",
+    "media": {
+      "id": 61500,
+      "url": "https://ing.nl/punten/media/file/61499.jpg"
+    },
+    "supplier": "MrTicket.nl",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1000100,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 7.5,
+      "points": 750,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Apenheul: tot wel €10,00 korting",
+    "media": {
+      "id": 36331907,
+      "url": "https://ing.nl/punten/media/file/36331906.jpg"
+    },
+    "supplier": "MrTicket.nl",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1005821,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "2x 40% korting op HelloFresh",
+    "media": {
+      "id": 42021292,
+      "url": "https://ing.nl/punten/media/file/42021291.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1008159,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 1000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "JBL 20% Kortingsbon",
+    "media": {
+      "id": 32203761,
+      "url": "https://ing.nl/punten/media/file/32203760.jpg"
+    },
+    "supplier": "JBL",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1000914,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 10,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Dierenpark Amersfoort: tot €5,00 korting",
+    "media": {
+      "id": 29206506,
+      "url": "https://ing.nl/punten/media/file/29206504.jpg"
+    },
+    "supplier": "MrTicket.nl",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1005141,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 10,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Walibi Holland: €7,50 korting ",
+    "media": {
+      "id": 35555668,
+      "url": "https://ing.nl/punten/media/file/35555667.jpg"
+    },
+    "supplier": "MrTicket.nl",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1009381,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Lucardi Juwelier 25% Kortingsvoucher",
+    "media": {
+      "id": 39290243,
+      "url": "https://ing.nl/punten/media/file/39290242.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1000756,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 7.5,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "GaiaZOO: tot €7,50 korting",
+    "media": {
+      "id": 347110,
+      "url": "https://ing.nl/punten/media/file/347109.jpg"
+    },
+    "supplier": "MrTicket.nl",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1003420,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 8.5,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "WILDLANDS: tot wel €5,00 korting",
+    "media": {
+      "id": 21467589,
+      "url": "https://ing.nl/punten/media/file/21467588.jpg"
+    },
+    "supplier": "MrTicket.nl",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1002246,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Smartphonehoesjes: 20% korting",
+    "media": {
+      "id": 1056740,
+      "url": "https://ing.nl/punten/media/file/1056739.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1000917,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 9.5,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Madurodam: tot €8,00 korting",
+    "media": {
+      "id": 372884,
+      "url": "https://ing.nl/punten/media/file/372883.jpg"
+    },
+    "supplier": "MrTicket.nl",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1008137,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "VriendenLoterij: 2 loten",
+    "media": {
+      "id": 41020233,
+      "url": "https://ing.nl/punten/media/file/41020232.jpg"
+    },
+    "supplier": "Touch Tickets B.V. ",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1005562,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 500,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Reebok voordeelbon 35% korting",
+    "media": {
+      "id": 18871089,
+      "url": "https://ing.nl/punten/media/file/18871088.jpg"
+    },
+    "supplier": "Guus BV",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1007968,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 0,
+      "points": 1000,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Sonos 15% Kortingsvoucher",
+    "media": {
+      "id": 30490975,
+      "url": "https://ing.nl/punten/media/file/30490974.jpg"
+    },
+    "supplier": "Sonos",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1002769,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 5,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "BloomPost: € 5,00 korting",
+    "media": {
+      "id": 29798007,
+      "url": "https://ing.nl/punten/media/file/29798002.jpg"
+    },
+    "supplier": "GiftNation B.V.",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  },
+  {
+    "productId": 1000728,
+    "price": {
+      "sellingPrice": 0,
+      "advicePrice": 8,
+      "points": 250,
+      "extraCostLabel": null,
+      "extraCostValue": null,
+      "environmentalTax": null
+    },
+    "name": "Dierenrijk bij Eindhoven: €6,50 korting",
+    "media": {
+      "id": 29035307,
+      "url": "https://ing.nl/punten/media/file/29035305.jpg"
+    },
+    "supplier": "MrTicket.nl",
+    "availableStock": 0,
+    "fulfillmentType": "VOUCHER"
+  }
+]
