@@ -1,9 +1,10 @@
 import {LitElement, html, css} from 'lit';
 import '../../components/shop-image';
-
+import { buttonStyles } from '../../styles/button-styles.js';
 export class ShopHome extends LitElement {
     static get styles() {
       return [
+        buttonStyles,
         css`
           .image-link {
             outline: none;
@@ -100,7 +101,7 @@ export class ShopHome extends LitElement {
                 <shop-image .src=${item.mediaUrl} .alt=${item.categoryName}></shop-image>
             </a>
             <h2>${item.categoryName}</h2>
-            <a aria-label=${item.categoryName} Shop Now" a href="/list/${item.id}" >Shop Now</a>  
+            <shop-button><a aria-label="${item.categoryName} Shop Now" href="/list/${item.id}" >Shop Now</a></shop-button>
             <shop-categorydata categoryName=${item.id}></shop-categorydata>
           </div> `
         )}
