@@ -49,7 +49,7 @@ class ShopCategorydata extends LitElement {
 
  getCategoryObject() {
     for (let i = 0, c; c = this.categories.value[i]; ++i) {
-        if(c.title===this.categoryName){
+        if(c.id===this.categoryName){
             return c;
         } 
     }
@@ -68,7 +68,7 @@ class ShopCategorydata extends LitElement {
     }
     
     this.getResource({
-      url: `data/${  category.name  }.json`,
+      url: `mock-data/${  category.id  }.json`,
       onLoad(e) {
         category.items= JSON.parse(e.target.responseText);
       }

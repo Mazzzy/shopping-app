@@ -2,7 +2,7 @@ import { LitElement, html, css } from 'lit';
 import '../shop-home';
 import '../../data/shop-categorydata.js';
 import '../../components/shop-tab';
-
+import '../shop-list';
 export class ShoppingDashboard extends LitElement {
   static get styles() {
     return css`
@@ -147,6 +147,8 @@ export class ShoppingDashboard extends LitElement {
       tab : {type:Boolean},
       categories: {type: Array},
       pageName: { type: String },
+      selectedItem: { type: String },
+      selectedCategory: { type: String },
       route:{type: String},
     };
   }
@@ -157,8 +159,17 @@ export class ShoppingDashboard extends LitElement {
 
   pageChanged(){
     this.tab=false; 
-    if(this.location.pathname.split('/')[1] === ''){
+    if(this.location.pathname.split('/')[1] === '') {
       this.page="home"
+    } else if(this.location.pathname.split('/')[1]=='list') {
+      this.page="list";
+      this.pageName = this.location.pathname.split('/')[2]
+    } else if(this.location.pathname.split('/')[1]=='list-item') {
+      this.page="detail";
+      this.selectedCategory = this.location.pathname.split('/')[2]
+      this.selectedItem = this.location.pathname.split('/')[3]
+      this.route = this.location.pathname.split('/')[4]
+     
     }
   
   }
@@ -180,7 +191,11 @@ export class ShoppingDashboard extends LitElement {
           
         ${ (this.page === 'home')? 
           html`<shop-home .categories=${this.categories}></shop-home>` :  html``}
-            
+
+        ${ (this.page=='list')? 
+          html `<shop-list location=${this.pageName}></shop-list>` :  html``} 
+          
+              
       </main>
 
       <p class="app-footer">
